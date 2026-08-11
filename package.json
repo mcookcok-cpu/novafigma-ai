@@ -1,0 +1,13 @@
+{
+  "name": "novafigma-ai",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "build": "tsc && node scripts/copy-ui.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.120.0",
+    "typescript": "^5.8.0"
+  }
+}

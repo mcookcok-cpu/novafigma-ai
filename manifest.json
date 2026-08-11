@@ -1,0 +1,13 @@
+{
+  "name": "NovaFigma AI",
+  "id": "novafigma-ai",
+  "api": "1.0.0",
+  "main": "dist/main.js",
+  "ui": "src/ui/index.html",
+  "editorType": [
+    "figma"
+  ],
+  "networkAccess": {
+    "allowedDomains": []
+  }
+}

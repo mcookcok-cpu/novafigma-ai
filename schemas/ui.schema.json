@@ -1,0 +1,22 @@
+{
+  "app": "string",
+  "platforms": [
+    "android",
+    "web"
+  ],
+  "screens": [
+    {
+      "id": "string",
+      "name": "string",
+      "width": "number",
+      "height": "number"
+    }
+  ],
+  "connections": [
+    {
+      "from": "string",
+      "to": "string",
+      "trigger": "click"
+    }
+  ]
+}
