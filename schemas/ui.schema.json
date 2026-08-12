@@ -1,22 +1,20 @@
 {
   "app": "string",
-  "platforms": [
-    "android",
-    "web"
-  ],
+  "platforms": ["android", "web"],
   "screens": [
     {
       "id": "string",
       "name": "string",
       "width": "number",
-      "height": "number"
+      "height": "number",
+      "title": "string"
     }
   ],
   "connections": [
     {
       "from": "string",
       "to": "string",
-      "trigger": "click"
+      "trigger": ["click", "hover", "drag", "press"]
     }
   ]
 }
